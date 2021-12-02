@@ -91,7 +91,7 @@ python main.py --weights /checkpoints/custom-416 --camera_ip "YOUR-CAMERA-IP"
   --weights: path to weights file
     (default: '/checkpoints/yolov4-416')
 ### Other flags
-    Other flags such as --iou, --model, --size,... can be read by running this command
+Other flags such as --iou, --model, --size,... can be read by running this command
 ```bash
 python main.py --helpshort 
 ```
