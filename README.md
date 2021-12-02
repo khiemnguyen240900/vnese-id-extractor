@@ -68,7 +68,7 @@ cd ..
 python main.py --weights /checkpoints/custom-416 --video 0 --interactive
 
 # using phone camera through IP Webcam app and save the aligned image
-python main.py --weights /checkpoints/custom-416 --camera_ip "YOUR-CAMERA-IP" 
+python main.py --weights /checkpoints/custom-416 --camera_ip "YOUR-CAMERA-IP" --output
 ```
 3. Extracted information and aligned image will be store in ./output folder
 
