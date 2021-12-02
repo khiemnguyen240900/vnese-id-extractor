@@ -1,0 +1,28 @@
+name: yolov4-cpu
+
+dependencies:
+  - python==3.7
+  - pip
+  - matplotlib
+  - opencv
+  - pip:
+    - opencv-python==4.1.1.26
+    - lxml
+    - tqdm
+    - tensorflow==2.3.0
+    - absl-py
+    - easydict
+    - pillow
+    - pytesseract
+    - einops==0.2.0
+    - torch
+    - torchvision
+    - PyYAML
+    - lmdb
+    - gdown
+    - imutils
+    - scipy
+    - ocrd-fork-pylsd==0.0.3
+    - pybind11
+    - fastwer
+    - natsort
