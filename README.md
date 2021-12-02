@@ -51,14 +51,22 @@ cd ..
 1. Download my pre-trained weights at: https://drive.google.com/drive/folders/1TwrMzlOS2HuOv628ZOQeqANTQRpUapwh?usp=sharing
 2. Put the weights file into: ./yolov4_card_detection/data/
 3. Put the names file into: ./yolov4_card_detection/data/classes/
-4. Convert the Yolo weights from darknet to tensorflow
+4. Open ./yolov4_card_detection/core/config.py, change line 15 to
+```
+__C.YOLO.BASE = os.getcwd().replace(os.sep, '/')
+```
+5. Convert the Yolo weights from darknet to tensorflow
 ```bash
 cd yolov4_card_detection
 python save_model.py --weights ./data/yolov4-cards.weights --output ./checkpoints/custom-416 --input_size 416 --model yolov4
 cd .. 
 ```
-5. Ensure the conversion is successful by checking ./yolov4_card_detection/checkpoints folder
-6. Note: to train with your custom data, check out this tutorial from theAIguys: https://youtu.be/mmj3nxGT2YQ
+6. Ensure the conversion is successful by checking ./yolov4_card_detection/checkpoints folder
+7. Undo step 4.4 (change line 15 back to)
+```
+__C.YOLO.BASE = os.getcwd().replace(os.sep, '/') + "/yolov4_card_detection"
+```
+8. Note: to train with your custom data, check out this tutorial from theAIguys: https://youtu.be/mmj3nxGT2YQ
 
 ### Step 5: Run the code
 1. Please read Appendix A for information about flags
