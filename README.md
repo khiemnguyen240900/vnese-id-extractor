@@ -7,7 +7,7 @@ Link:
 ## How to run the code
 
 ### Step 1: Install anaconda, python and git
-    Check out this link: https://youtu.be/ZRC2nzP1w_4
+Check out this link: https://youtu.be/ZRC2nzP1w_4
 
 ### Step 2: Clone this repo
 1. Open anaconda terminal, navigate to your directory

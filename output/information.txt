@@ -1,1 +1,0 @@
-{"id": "366229137", "name": "NGUYỄN GIA KHIÊM", "birth": "24-09-2000", "home": "37/11 Trương Công Định Phường 2 TP Sóc Trăng Sóc Trăng", "add": "TP Cần Thơ"}
