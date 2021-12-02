@@ -17,5 +17,4 @@ imutils
 scipy
 ocrd-fork-pylsd==0.0.3
 pybind11
-fastwer
 natsort
