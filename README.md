@@ -1,8 +1,16 @@
 # vnese-id-extractor
 
+## Implemented by:
+Ho Chi Minh City University of Technology (Bach Khoa Ho Chi Minh University)
+1. Nguyen Ngoc Nhan - Control Engineering and Automation
+2. Thai Quang Nguyen - Control Engineering and Automation
+3. Pham Ngoc Tran - Control Engineering and Automation
+4. Nguyen Gia Khiem - Control Engineering and Automation
+5. Pham Binh Nguyen - Control Engineering and Automation
+
 ## Youtube video tutorial
 
-Link: 
+Link: https://youtu.be/4DhUrMDltvE
 
 ## How to run the code
 
